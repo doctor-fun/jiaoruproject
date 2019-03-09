@@ -4,7 +4,6 @@ import java.util.*;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 
@@ -82,7 +81,7 @@ public class StatisticsTrainerService {
 	 */
 	public List<StatisticsTrainer> findSearchNoPage(StatisticsTrainer statisticsTrainer) {
 		List<StatisticsTrainer> list;
-		list=	statisticsTrainerDao.findAll(new Specification<StatisticsTrainer>() {
+		list=statisticsTrainerDao.findAll(new Specification<StatisticsTrainer>() {
 			/**
 			 * 根对象，也就是要把条件封装到哪个对象中，where 类名=statisticsTrainer.get()条件
 			 * @param root

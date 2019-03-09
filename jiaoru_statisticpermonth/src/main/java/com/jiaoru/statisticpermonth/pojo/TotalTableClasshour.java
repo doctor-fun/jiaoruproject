@@ -18,65 +18,86 @@ public class TotalTableClasshour implements Serializable{
 
 
 
-    private String trainerName;//
+    private String trainername;//
     private Integer time;//
-    private Integer feePerTime;//
-    private Integer totalFee;//
-    private String activityReward;//
+    private Integer feepertime;//
+    private Integer totalfee;//
+    private String activityreward;//
     private String subsidy;//
     private String deduction;//
-    private String wagesPayable;//
-    private Integer teachingGuarantee;//
-    private Integer settlementAmount;//
-    private Integer teachingGuaranteeOwe;//
-    private String remarks;//
+    private String wagespayable;//
 
+    @Override
+    public String toString() {
+        return "TotalTableClasshour{" +
+                "id='" + id + '\'' +
+                ", trainername='" + trainername + '\'' +
+                ", time=" + time +
+                ", feepertime=" + feepertime +
+                ", totalfee=" + totalfee +
+                ", activityreward='" + activityreward + '\'' +
+                ", subsidy='" + subsidy + '\'' +
+                ", deduction='" + deduction + '\'' +
+                ", wagespayable='" + wagespayable + '\'' +
+                ", teachingguarantee=" + teachingguarantee +
+                ", settlementamount=" + settlementamount +
+                ", teachingguaranteeowe=" + teachingguaranteeowe +
+                ", remarks='" + remarks + '\'' +
+                '}';
+    }
 
     public String getId() {
         return id;
     }
+
     public void setId(String id) {
         this.id = id;
     }
 
-    public String getTrainerName() {
-        return trainerName;
+    public String getTrainername() {
+        return trainername;
     }
-    public void setTrainerName(String trainerName) {
-        this.trainerName = trainerName;
+
+    public void setTrainername(String trainername) {
+        this.trainername = trainername;
     }
 
     public Integer getTime() {
         return time;
     }
+
     public void setTime(Integer time) {
         this.time = time;
     }
 
-    public Integer getFeePerTime() {
-        return feePerTime;
-    }
-    public void setFeePerTime(Integer feePerTime) {
-        this.feePerTime = feePerTime;
+    public Integer getFeepertime() {
+        return feepertime;
     }
 
-    public Integer getTotalFee() {
-        return totalFee;
-    }
-    public void setTotalFee(Integer totalFee) {
-        this.totalFee = totalFee;
+    public void setFeepertime(Integer feepertime) {
+        this.feepertime = feepertime;
     }
 
-    public String getActivityReward() {
-        return activityReward;
+    public Integer getTotalfee() {
+        return totalfee;
     }
-    public void setActivityReward(String activityReward) {
-        this.activityReward = activityReward;
+
+    public void setTotalfee(Integer totalfee) {
+        this.totalfee = totalfee;
+    }
+
+    public String getActivityreward() {
+        return activityreward;
+    }
+
+    public void setActivityreward(String activityreward) {
+        this.activityreward = activityreward;
     }
 
     public String getSubsidy() {
         return subsidy;
     }
+
     public void setSubsidy(String subsidy) {
         this.subsidy = subsidy;
     }
@@ -84,47 +105,55 @@ public class TotalTableClasshour implements Serializable{
     public String getDeduction() {
         return deduction;
     }
+
     public void setDeduction(String deduction) {
         this.deduction = deduction;
     }
 
-    public String getWagesPayable() {
-        return wagesPayable;
-    }
-    public void setWagesPayable(String wagesPayable) {
-        this.wagesPayable = wagesPayable;
+    public String getWagespayable() {
+        return wagespayable;
     }
 
-    public Integer getTeachingGuarantee() {
-        return teachingGuarantee;
+    public void setWagespayable(String wagespayable) {
+        this.wagespayable = wagespayable;
     }
 
-    public void setTeachingGuarantee(Integer teachingGuarantee) {
-        this.teachingGuarantee = teachingGuarantee;
+    public Integer getTeachingguarantee() {
+        return teachingguarantee;
     }
 
-    public Integer getSettlementAmount() {
-        return settlementAmount;
+    public void setTeachingguarantee(Integer teachingguarantee) {
+        this.teachingguarantee = teachingguarantee;
     }
 
-    public void setSettlementAmount(Integer settlementAmount) {
-        this.settlementAmount = settlementAmount;
+    public Integer getSettlementamount() {
+        return settlementamount;
     }
 
-    public Integer getTeachingGuaranteeOwe() {
-        return teachingGuaranteeOwe;
+    public void setSettlementamount(Integer settlementamount) {
+        this.settlementamount = settlementamount;
     }
 
-    public void setTeachingGuaranteeOwe(Integer teachingGuaranteeOwe) {
-        this.teachingGuaranteeOwe = teachingGuaranteeOwe;
+    public Integer getTeachingguaranteeowe() {
+        return teachingguaranteeowe;
+    }
+
+    public void setTeachingguaranteeowe(Integer teachingguaranteeowe) {
+        this.teachingguaranteeowe = teachingguaranteeowe;
     }
 
     public String getRemarks() {
         return remarks;
     }
+
     public void setRemarks(String remarks) {
         this.remarks = remarks;
     }
+
+    private Integer teachingguarantee;//
+    private Integer settlementamount;//
+    private Integer teachingguaranteeowe;//
+    private String remarks;//
 
 
 
