@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jiaoru_common/jiaoru_common.iml" filepath="$PROJECT_DIR$/jiaoru_common/jiaoru_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiaoru_parent.iml" filepath="$PROJECT_DIR$/jiaoru_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiaoru_statisticpermonth/jiaoru_statisticpermonth.iml" filepath="$PROJECT_DIR$/jiaoru_statisticpermonth/jiaoru_statisticpermonth.iml" />
+    </modules>
+  </component>
+</project>
